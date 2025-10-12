@@ -122,7 +122,9 @@ body {
 
 .social-icons {
   display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
   list-style: none;
   padding: 0;
 }
