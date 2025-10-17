@@ -1,16 +1,17 @@
 /* Estilos generales */
 * {
     box-sizing: border-box;
-    margin: 7;
-    padding: 7000;
+    margin: 0;
+    padding: 0;
 }
 
 /* Centra todo el texto del sitio */
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #f9f9f9;
+    background-image: url('Imagenes/Fondos/Mesa\ de\ trabajo\ 1100.jpg');
     margin: 0 auto;
+    /*background-color: #f9f9f9;*/
 }
 
 /* Header centrado */
@@ -19,7 +20,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('https://images.unsplash.com/photo-1549692520-acc6669e262c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('Imagenes/Fondos/Imagen\ fondo.png');
+    background-color: #333;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -54,11 +56,6 @@ body {
   padding: 8px 12px;
   transition: color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
-}
-.main-nav a:hover { transform: scale(1.2); }
-.main-nav a.active {
-  background-color: #fca311;
-  border-radius: 4px;
 }
 
 /* Contenido principal */
@@ -100,6 +97,17 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 70%;
     margin: 0 auto;
+}
+
+.aside-links a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.aside-links a:hover {
+  color: #fca311;
+  text-decoration: none;
 }
 
 .aside-links, .social-icons {
