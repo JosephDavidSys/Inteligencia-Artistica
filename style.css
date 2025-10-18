@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url('Imagenes/Fondos/Mesa\ de\ trabajo\ 1100.jpg');
+    background-image: url('Imagenes/Fondos\ Verticales/Mesa de trabajo 1100.jpg');
     margin: 0 auto;
     /*background-color: #f9f9f9;*/
 }
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('Imagenes/Fondos/Imagen\ fondo.png');
+    background-image: url('Imagenes/Imagen\ Fondo/Imagen fondo.png');
     background-color: #333;
     background-size: cover;
     background-position: center;
